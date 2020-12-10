@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		/*background-color: #935d8c;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background: rgb(18,0,0);
+		background: -moz-linear-gradient(180deg, rgba(18,0,0,1) 10%, rgba(255,145,0,1) 45%, rgba(126,0,0,1) 75%);
+		background: -webkit-linear-gradient(180deg, rgba(18,0,0,1) 10%, rgba(255,145,0,1) 45%, rgba(126,0,0,1) 75%);
+		background: linear-gradient(180deg, rgba(18,0,0,1) 10%, rgba(255,145,0,1) 45%, rgba(126,0,0,1) 75%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#120000",endColorstr="#7e0000",GradientType=1);
+		/*background-color: #935d8c;*/
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2814,7 +2819,7 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(42% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
@@ -2831,7 +2836,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.features li {
-				width: calc(50% - 2em);
+				width: calc(60% - 2em);
 			}
 
 				.features li:nth-child(3) {
@@ -3707,6 +3712,13 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		#footer .icons {
+			width: 100%;
+			margin: 2.5em 0 2em 0;
+			font-size: 0.8em;
+			text-align: center;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			#footer {
@@ -3730,9 +3742,9 @@ input, select, textarea {
 					margin-bottom: 3em;
 				}
 
-				#footer .copyright {
+				/*#footer .copyright {
 					text-align: left;
-				}
+				}*/
 
 		}
 
