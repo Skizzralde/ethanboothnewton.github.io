@@ -6,7 +6,7 @@ This repo is my personal website portfolio that will be constantly updated when 
 ## Contents
 Below is the list of contents which the Website Portfolio contains:
 * An introduction
-* Current and Past Projects
+* Past and Future Projects
 * Acquired Skills
 * Social links, including:
   * Twitter
