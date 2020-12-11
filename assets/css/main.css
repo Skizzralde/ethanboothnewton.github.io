@@ -126,7 +126,7 @@ input, select, textarea {
 		background: linear-gradient(180deg, rgba(18,0,0,1) 10%, rgba(255,145,0,1) 45%, rgba(126,0,0,1) 75%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#120000",endColorstr="#7e0000",GradientType=1);
 		/*background-color: #935d8c;*/
-		color: rgba(255, 255, 255, 0.65);
+		color: rgb(255 228 171);
 	}
 
 	body, input, select, textarea {
@@ -2353,8 +2353,8 @@ input, select, textarea {
 		}
 
 	.icon.alt {
-		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		border-color color: rgb(255 228 171);;
+		/*color: #ffffff;*/
 	}
 
 		.icon.alt:hover {
@@ -2889,23 +2889,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #d65b5b;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #d6755b;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #e38059;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #fb9961;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #fcbb6e;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3220,13 +3220,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
+		background-color: #ffefcd;
 		color: #636363;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #ffefcd;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3298,11 +3298,11 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: rgba(233, 206, 149, 100);
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #ffe4ab;
 						box-shadow: none;
 					}
 
@@ -3310,7 +3310,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: rgba(255, 239, 205, 1);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3339,7 +3339,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #fef3e2;
 		color: #636363;
 		border-radius: 0.25em;
 	}
@@ -3550,11 +3550,11 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background: rgb(255,145,0);
+			background: -moz-linear-gradient(90deg, rgba(255,145,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,145,0,1) 100%);
+			background: -webkit-linear-gradient(90deg, rgba(255,145,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,145,0,1) 100%);
+			background: linear-gradient(90deg, rgba(255,145,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,145,0,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9100",endColorstr="#ff9100",GradientType=1);
 		}
 
 		#main table tbody tr {
