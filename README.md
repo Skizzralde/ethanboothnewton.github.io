@@ -11,3 +11,4 @@ Below is the list of contents which the Website Portfolio contains:
 * Social links, including:
   * Twitter
   * Linkedin
+  * Link back to GitHub
